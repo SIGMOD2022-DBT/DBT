@@ -3,17 +3,17 @@
 ### key_gen_alphanumeric
 `key_gen_alphanumeric` generates `Alphanumeric` keys, each byte of which is selected from {'A'-'Z', 'a'-'z', '0'-'9'} following the Zipf distribution.
 
-Usage
+- Usage
 ```bash
 ./key_gen_alphanumeric <key length> <num keys>
 ```
 
-Example Usage
+- Example Usage
 ```bash
 ./key_gen_alphanumeric 32 10
 ```
 
-Example Output
+- Example Output
 ```bash
 19892260DCTK32450GC700LU110MBP42
 1Pa00000EeG4100tBD1B0P4j31031EcD
@@ -30,17 +30,17 @@ s01dNC031F2510C9G2JQ1D01D2CM3C02
 ### key_gen_random
 Given an integer `hi`, `key_gen_random` generates `Random` keys, each byte of which is selected from [1, `hi`] following the Zipf distribution.
 
-Usage
+- Usage
 ```bash
 ./key_gen_random <hi> <key length> <num keys>
 ```
 
-Example Usage
+- Example Usage
 ```bash
 ./key_gen_random 5 32 10
 ```
 
-Example Output
+- Example Output
 ```
 ^E^C^E^A^A^D^E^C^E^B^A^D^C^A^C^C^A^D^A^A^B^E^A^A^A^A^C^D^B^B^D^A
 ^A^A^A^B^B^A^B^B^D^D^C^A^B^B^A^A^D^A^C^B^D^A^A^D^E^A^A^B^A^A^B^C
