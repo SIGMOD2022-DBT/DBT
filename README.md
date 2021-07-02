@@ -81,4 +81,4 @@ gunzip workload_pointsearch_1_synthetic32B_alpha-numeric-zipf_txn/x* && cat work
 `oltp.sh` is a script used for experiments in the OLTP scenario.
 
 ### DB+ tree
-The source code of DB+ tree cannot be made public due to company policies.
+The code of DB+ tree cannot be made public due to company policies.
