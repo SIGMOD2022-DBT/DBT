@@ -36,8 +36,8 @@ Usage
 ```
 
 Example Usage
-```bash 5 32 10
-./key_gen_random 
+```bash
+./key_gen_random 5 32 10
 ```
 
 Example Output
@@ -74,3 +74,6 @@ You can unzip the file using the following command.
 ```bash
 gunzip workload_pointsearch_1_synthetic32B_alpha-numeric-zipf_txn/x* && cat workload_pointsearch_1_synthetic32B_alpha-numeric-zipf_txn/x* > workload_pointsearch_1_synthetic32B_alpha-numeric-zipf_txn.dat
 ```
+
+### oltp.sh
+`oltp.sh` is a script used for experiments under oltp scenario.
