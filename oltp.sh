@@ -3,9 +3,9 @@ op=$2
 oparg=$3
 index=$4
 
-declare -A key_lengths=( ["12-zipf"]="32" ["62-zipf"]="32" ["100-zipf"]="32" ["220-zipf"]="32" ["alpha-numeric-zipf"]="32" ["220-zipf"]="32" ["customername"]="18" ["realreal"]="19" ["wikititle"]="128" ["wikiurl"]="128" ["yago"]="128" )
-declare -A key_types=( ["12-zipf"]="synthetic32B" ["62-zipf"]="synthetic32B" ["100-zipf"]="synthetic32B" ["220-zipf"]="synthetic32B" ["alpha-numeric-zipf"]="synthetic32B" ["220-zipf"]="synthetic32B" ["customername"]="string" ["realreal"]="string" ["wikititle"]="string" ["wikiurl"]="string" ["yago"]="string" )
-declare -A exe_types=( ["12-zipf"]="random" ["62-zipf"]="random" ["100-zipf"]="random" ["220-zipf"]="random" ["alpha-numeric-zipf"]="random" ["220-zipf"]="random" ["customername"]="string" ["realreal"]="string" ["wikititle"]="string" ["wikiurl"]="string" ["yago"]="string" )
+declare -A key_lengths=( ["12-zipf"]="32" ["62-zipf"]="32" ["100-zipf"]="32" ["220-zipf"]="32" ["alpha-numeric-zipf"]="32" ["220-zipf"]="32" ["customername"]="18" ["ERP"]="19" ["wikititle"]="128" ["wikiurl"]="128" ["yago"]="128" )
+declare -A key_types=( ["12-zipf"]="synthetic32B" ["62-zipf"]="synthetic32B" ["100-zipf"]="synthetic32B" ["220-zipf"]="synthetic32B" ["alpha-numeric-zipf"]="synthetic32B" ["220-zipf"]="synthetic32B" ["customername"]="string" ["ERP"]="string" ["wikititle"]="string" ["wikiurl"]="string" ["yago"]="string" )
+declare -A exe_types=( ["12-zipf"]="random" ["62-zipf"]="random" ["100-zipf"]="random" ["220-zipf"]="random" ["alpha-numeric-zipf"]="random" ["220-zipf"]="random" ["customername"]="string" ["ERP"]="string" ["wikititle"]="string" ["wikiurl"]="string" ["yago"]="string" )
 
 key_length=${key_lengths[${key}]}
 key_type=${key_types[${key}]}
